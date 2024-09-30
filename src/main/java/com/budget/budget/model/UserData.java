@@ -16,9 +16,25 @@ public class UserData {
     String email;
     String password;
     String income;
+    String spend;
 
+    public String getSpend() {
+        return spend;
+    }
 
+    public void setSpend(String spend) {
+        this.spend = spend;
+    }
 
+    public String getRemaining() {
+        return remaining;
+    }
+
+    public void setRemaining(String remaining) {
+        this.remaining = remaining;
+    }
+
+    String remaining;
 
     public String getIncome() {
         return income;
